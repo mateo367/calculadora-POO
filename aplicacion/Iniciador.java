@@ -42,13 +42,21 @@ public class Iniciador{
                     int divisor;
                     do{
                         divisor = IngresoNumero.ingresarNumero();
+                        if (divisor == 0){
+                            System.out.println("ingrese un numero diferente a cero");
+                        }
                     }while (divisor == 0);
                     Funciones.suma(divisor, dividendo);
 
                     break;
                 case (5):
                     Listas.mostrarLista();
-    
+
+                    break;
+
+                default:
+                    break;
+        
                 }
 
             }
