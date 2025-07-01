@@ -7,7 +7,7 @@ public class Iniciador{
     public static void pantallaDeInicio(){
         while (true){
             System.out.println("eliga que quiere realizar");
-            System.out.println("eliga que quiere realizar");
+            System.out.println("1-suma ");
             int seleccionMenu = IngresoNumero.ingresarNumero();
             switch (seleccionMenu) {
                 case (1):
